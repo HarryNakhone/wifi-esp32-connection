@@ -29,8 +29,8 @@
 #define TCP_FAILURE 1 << 1024
 #define MAX_FAILURES 10
 
-#define WIFI_USERNAME "pnakhonek0970"
-#define WIFI_PASSWORD "Harry20042004@"
+#define WIFI_USERNAME "YO USERNAME"
+#define WIFI_PASSWORD "YO PASSWORD"
 
 #define BUFFER_SIZE 1024
 
@@ -95,7 +95,7 @@ esp_err_t connect_wifi(){
 
 	wifi_config_t wifi_config = {
 		.sta = {
-			.ssid = "DBU", 
+			.ssid = "YO WIFI NAME OR SSID", 
 			
 
 		},
